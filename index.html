@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2a1535" />
+  <meta name="description" content="A little corner of the internet made by kim, for yeoboo." />
+  <title>for sitie, my yeoboo ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="petals" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <button class="music-toggle" id="musicToggle" aria-label="Play Celeste by Tothapi">
+    <span class="music-icon">♫</span>
+    <span id="musicText">play our song</span>
+  </button>
+
+  <audio id="bgMusic" loop preload="auto">
+    <source src="assets/celeste.mp3" type="audio/mpeg">
+</audio>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="moon"></div>
+      <div class="hero-content">
+        <p class="tiny-line">this isn't for the internet.</p>
+        <p class="tiny-line">it's for you.</p>
+
+        <h1>for my<br><em>yeoboo</em></h1>
+
+        <p class="hero-name">sitie ♡</p>
+
+        <p class="hero-subtitle">
+          I made this because sometimes I look at you<br class="desktop">
+          and realize there are things I will never know how to say out loud.
+        </p>
+
+        <button class="begin-btn" id="beginBtn">come a little closer <span>♡</span></button>
+        <p class="scroll-note">I made something for you ↓</p>
+      </div>
+
+      <div class="flower flower-one">✿</div>
+      <div class="flower flower-two">❀</div>
+      <div class="flower flower-three">✾</div>
+    </section>
+
+    <section class="letter-opening reveal">
+      <div class="private-note">
+        <p class="note-top">to the girl this whole thing is for</p>
+
+        <p class="handwritten">Dear yeoboo,</p>
+
+        <p>
+          I don't want this to be one of those pretty websites that looks nice
+          but could have been made for anybody.
+        </p>
+
+        <p>
+          I wanted this to be <em>ours.</em>
+        </p>
+
+        <p>
+          So if you are here right now, forget that anyone else could ever see
+          this. For these few minutes, pretend this little corner of the
+          internet belongs only to you and me.
+        </p>
+
+        <p>
+          Every picture here is a little piece of a life I am grateful I got
+          to share with you. Every word is something I wish I could put in
+          your hands and tell you properly.
+        </p>
+
+        <p class="quiet-line">I love you, sitie.</p>
+        <p class="signature">— kim</p>
+      </div>
+    </section>
+
+    <section class="memories reveal" id="memories">
+      <div class="section-label">a few pieces of us</div>
+
+      <div class="memory-intro">
+        <h2>These aren't just pictures.</h2>
+        <p>
+          They're little proof that somewhere along the way, ordinary moments
+          started becoming my favorite ones.
+        </p>
+      </div>
+
+      <div class="photo-stack">
+        <figure class="photo-card photo-one">
+          <div class="photo-wrap">
+            <img src="assets/memory-03.png" alt="Kim and yeoboo together" loading="lazy">
+          </div>
+          <figcaption>
+            <span>01</span>
+            I like this version of us. Just us, being us.
+          </figcaption>
+        </figure>
+
+        <figure class="photo-card photo-two">
+          <div class="photo-wrap">
+            <img src="assets/memory-04.png" alt="A little everyday memory together" loading="lazy">
+          </div>
+          <figcaption>
+            <span>02</span>
+            I hope we keep collecting little moments like this.
+          </figcaption>
+        </figure>
+
+        <figure class="photo-card photo-three">
+          <div class="photo-wrap">
+            <img src="assets/memory-05.png" alt="Kim and yeoboo in a mirror photo" loading="lazy">
+          </div>
+          <figcaption>
+            <span>03</span>
+            If I could keep one thing, it would be the feeling of being beside you.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="little-things reveal">
+      <div class="section-label">things I don't always say</div>
+      <div class="little-card">
+        <p class="handwritten small">You probably don't notice these.</p>
+
+        <div class="thing">
+          <span>♡</span>
+          <p>I notice the little things about you.</p>
+        </div>
+        <div class="thing">
+          <span>♡</span>
+          <p>I remember moments you probably thought were completely ordinary.</p>
+        </div>
+        <div class="thing">
+          <span>♡</span>
+          <p>I keep more of our memories in my head than I know how to explain.</p>
+        </div>
+        <div class="thing">
+          <span>♡</span>
+          <p>And somehow, after all of them, I still find myself thinking: <em>I'm so lucky i have her.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="letters reveal" id="letters">
+      <div class="section-label">letters I wrote for you</div>
+      <div class="letter-heading">
+        <h2>For the days<br><em>you need me.</em></h2>
+        <p>Don't open them all at once. Save one for when you need it.</p>
+      </div>
+
+      <div class="envelope-row">
+        <button class="envelope" data-letter="letter1">
+          <span class="seal">♡</span>
+          <span class="env-label">when you need to feel loved</span>
+          <small>open me</small>
+        </button>
+
+        <button class="envelope" data-letter="letter2">
+          <span class="seal">✦</span>
+          <span class="env-label">when you miss me</span>
+          <small>open me</small>
+        </button>
+
+        <button class="envelope" data-letter="letter3">
+          <span class="seal">❀</span>
+          <span class="env-label">when today feels heavy</span>
+          <small>open me</small>
+        </button>
+      </div>
+    </section>
+
+    <section class="reasons reveal">
+      <div class="section-label">one more thing</div>
+      <div class="reasons-card">
+        <p class="small-title">you know I could keep going.</p>
+        <p class="reason-intro">But let me give you a few reasons anyway.</p>
+        <button id="reasonHeart" class="big-heart" aria-label="Show me a reason">♡</button>
+        <p id="reasonText" class="reason-text">tap me, yeoboo</p>
+        <span id="reasonCount">♡</span>
+      </div>
+    </section>
+
+    <section class="forever reveal">
+      <div class="stars">✦ &nbsp; ˚ &nbsp; ✧ &nbsp; ˚ &nbsp; ✦</div>
+      <p class="section-label">if you ever come back here</p>
+
+      <h2>remember this.</h2>
+
+      <p class="final-message">
+        You don't have to be the happiest version of yourself for me to love you.<br>
+        You don't have to have everything figured out.<br>
+        You don't have to earn your place beside me.<br><br>
+
+        I just want you.<br>
+        The real you.<br>
+        The sleepy you. The silly you. The quiet you.<br>
+        The you that sometimes doesn't know what to say.<br><br>
+
+        <strong>All of you.</strong>
+      </p>
+
+      <div class="final-heart">♥</div>
+      <p class="always">always, your kim</p>
+
+      <button id="surpriseBtn" class="surprise-btn">there's one last thing ♡</button>
+    </section>
+
+    <footer>
+      <span>made by our love</span>
+      <span>for sitie</span>
+      <span>my yeoboo ♡</span>
+    </footer>
+  </main>
+
+  <dialog id="letterModal">
+    <button class="close-modal" id="closeModal" aria-label="Close letter">×</button>
+    <div class="letter-paper">
+      <div class="paper-flower">❀</div>
+      <p class="letter-kicker">from kim, to yeoboo</p>
+      <div id="letterContent"></div>
+      <p class="letter-sign">always yours,<br><strong>kim</strong> ♡</p>
+    </div>
+  </dialog>
+
+  <div id="surpriseOverlay" class="surprise-overlay" aria-hidden="true">
+    <div class="surprise-content">
+      <div class="giant-heart">♥</div>
+      <p class="surprise-small">in case I didn't say it enough</p>
+      <h2>I love you,<br>yeoboo.</h2>
+      <p>Thank you for being the person I get to call mine.</p>
+      <button id="closeSurprise">come back anytime ♡</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
